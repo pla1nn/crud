@@ -8,9 +8,26 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    
-    <table>
-      
+    <button id="button">fetch</button>
+
+    <form id="moviesForm">
+      <input type="text" id="title" placeholder="title" required />
+      <input type="text" id="genre" placeholder="genrr" required />
+      <input type="text" id="director" placeholder="director" required />
+      <input type="number" id="year" placeholder="year" required />
+      <button type="submit">add</button>
+    </form>
+
+    <table id="table">
+      <thead>
+        <tr>
+          <th>title</th>
+          <th>genre</th>
+          <th>director</th>
+          <th>year</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
     </table>
 
     <script type="module" src="main.js"></script>
